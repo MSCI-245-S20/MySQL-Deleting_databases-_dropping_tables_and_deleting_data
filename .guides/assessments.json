@@ -11,7 +11,7 @@
    },
    "name": "Deleting values",
    "instructions": "A `bank` database has been created for you.\n\n`USE` the `bank` database and complete the following tasks using the `mysql` prompt:\n\n1. Delete the records where `user_id` equals 414, from the `u_accounts` table.\n\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
-   "command": "node .guides/sqltests/sql-4-1.js",
+   "command": "node --no-warnings .guides/sqltests/sql-4-1.js",
    "points": 1
   }
  },
@@ -27,7 +27,7 @@
    },
    "name": "Truncating tables",
    "instructions": "A `bank` database has been created for you.\n\n`USE` the `bank` database and complete the following tasks using the `mysql` prompt:\n\n1. Truncate the `assets` table.\n\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
-   "command": "node .guides/sqltests/sql-4-5.js",
+   "command": "node --no-warnings .guides/sqltests/sql-4-5.js",
    "points": 1
   }
  },
@@ -43,7 +43,7 @@
    },
    "name": "Deleting table values",
    "instructions": "A `RE` (Real Estate) database has been created for you.\n\n`USE` the `RE` database and complete the following tasks using the `mysql` prompt:\n\n1. Delete all the records from the `payments` table where `paid` equals `1`\n\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
-   "command": "node .guides/sqltests/sql-4-7.js",
+   "command": "node --no-warnings .guides/sqltests/sql-4-7.js",
    "points": 1
   }
  },
@@ -59,7 +59,7 @@
    },
    "name": "Deleting columns",
    "instructions": "A `bank` database has been created for you.\n\n`USE` the `bank` database and complete the following tasks using the `mysql` prompt:\n\n1. Remove the `cc_num` (credit card number) column from the `u_accounts` table.\n\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
-   "command": "node .guides/sqltests/sql-4-3.js",
+   "command": "node --no-warnings .guides/sqltests/sql-4-3.js",
    "points": 1
   }
  },
@@ -75,7 +75,7 @@
    },
    "name": "Deleting table columns",
    "instructions": "`USE` the `RE` database and complete the following tasks using the `mysql` prompt:\n\n1. Remove the `property_id` column from the `clients` table\n\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
-   "command": "node .guides/sqltests/sql-4-9.js",
+   "command": "node --no-warnings .guides/sqltests/sql-4-9.js",
    "points": 1
   }
  },
@@ -91,7 +91,7 @@
    },
    "name": "Deleting all table records",
    "instructions": "`USE` the `RE` database and complete the following tasks using the `mysql` prompt:\n\n1. Delete all the records from the `catalog` table but not the table itself\n\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
-   "command": "node .guides/sqltests/sql-4-8.js",
+   "command": "node --no-warnings .guides/sqltests/sql-4-8.js",
    "points": 1
   }
  },
@@ -107,7 +107,7 @@
    },
    "name": "Dropping databases",
    "instructions": "A `restaurant` database has been created for you.\n\nUsing the `mysql` prompt:\n\n1. Drop the entire `restaurant` database\n\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
-   "command": "node .guides/sqltests/sql-4-6.js",
+   "command": "node --no-warnings .guides/sqltests/sql-4-6.js",
    "points": 1
   }
  },
@@ -123,7 +123,7 @@
    },
    "name": "Omitting WHERE",
    "instructions": "`USE` the `bank` database and complete the following tasks using the `mysql` prompt:\n\n1. Delete all the records from the `users` table.\n\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
-   "command": "node .guides/sqltests/sql-4-2.js",
+   "command": "node --no-warnings .guides/sqltests/sql-4-2.js",
    "points": 1
   }
  },
@@ -139,7 +139,7 @@
    },
    "name": "Deleting tables",
    "instructions": "A `bank` database has been created for you.\n\n`USE` the `bank` database and complete the following tasks using the `mysql` prompt:\n\n1. Delete the entire `liabilities` table.\n\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
-   "command": "node .guides/sqltests/sql-4-4.js",
+   "command": "node --no-warnings .guides/sqltests/sql-4-4.js",
    "points": 1
   }
  }
